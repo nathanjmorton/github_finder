@@ -16,7 +16,7 @@ const App = () => {
         <Router>
           <div className='App'>
             <Navbar />
-            <div className="container">
+            <div className='container'>
               <Alert />
               <Switch>
                 <Route exact path='/' component={Home} />
@@ -29,6 +29,6 @@ const App = () => {
       </AlertState>
     </GithubState>
   );
-}
+};
 
 export default App;
